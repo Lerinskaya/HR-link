@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<body>
+  <section class="form__container">
+    <h1 class="form__title">Войти в HR-Link</h1>
+    <img src="./assets/photo.jpg" alt="image" class="form__image">
+    <form action="" class="form">
+      <div class="form__email-input">
+        <label for="email" class="form__label">Email/Телефон/WhatsApp</label>
+        <input type="email" class="form__input" id="email" required>
+      </div>
+      <div class="form__password-input">
+        <div class="form__password-label">
+          <label for="password" class="form__label">Пароль</label>
+          <p class="form__label-question">Не знаете пароль?</p>
+        </div>
+        <input type="password" class="form__input" id="password" minlength="6" required>
+        <span><i class="far fa-eye form__input-icon"></i></span>
+      </div>
+      <div class="form__submit">
+        <button class="form__button">Войти</button>
+        <span><i class="fa-solid fa-arrow-up-long fa-rotate-90 form__button-icon"></i></span>
+      </div>
+    </form>
+    <div class="line"></div>
+  </section>
+</body>
+</html>
