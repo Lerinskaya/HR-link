@@ -1,7 +1,7 @@
 .form__container {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -10,7 +10,7 @@
   font-weight: 600;
 }
 .form__image{
-  width:300px;
+  width:400px;
   margin: 70px 0 5px;
 }
 .form__input {
